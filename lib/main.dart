@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:horlicks_project/main_page.dart';
 import 'package:horlicks_project/screens/leaderboard_screen.dart';
+import 'package:horlicks_project/screens/login_screen.dart';
 import 'package:horlicks_project/screens/profile_screen.dart';
 import 'package:horlicks_project/screens/stats_screen.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xff7badfd)),
         useMaterial3: true,
       ),
-      home: MainPage(),
+      home: LoginScreen(),
     );
   }
 }
